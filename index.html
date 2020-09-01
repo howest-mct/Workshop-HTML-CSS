@@ -1,40 +1,51 @@
 <!doctype html>
 <html lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-    </head>
-    <body>
-        <h1>Hello world! This is my HTML5 boilerplate.</h1>
-        <p>A Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
-        <h2>
-            Heading 2
-        </h2>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. This is a <a href="test.com">standard link</a> distinctio facilis excepturi, reprehenderit pariatur odit, velit mollitia saepe impedit reiciendis omnis quasi sed, facere quo nobis a blanditiis.
-        </p>
-        <h3>
-            Heading 3
-        </h3>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. This is a <a href="https://www.google.com">visited link</a> hic nemo dicta dignissimos dolorum obcaecati nobis tenetur laudantium iusto quibusdam vero velit magnam quam quas! Iure nobis minima accusamus fuga.
-        </p>
-        <blockquote cite="http://www.htmldog.com/reference/htmltags/blockquote/">
-            <p>
-                A blockquote is a large quotation. The content of a blockquote element must include block-level elements such as headings, lists, paragraphs or div’s. This element can also have an optional attribute cite that specifies the location (in the form of a URI) where the quote has come from.
-            </p>
-        </blockquote>
-        <h3>
-            Styling lists is easy
-        </h3>
-        <p>
-            Add an unorderd list with 3 list items here
-        </p>
-        <hr>
-        <footer>
-            <p>By <strong>Your name</strong></p>
-        </footer>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+</head>
+
+<body>
+    Webdesign 1: HTML basis
+
+    HTML is een afkorting voor Hypertext Markup Language.
+    Zoals de term al zegt is het een opmaak taal, het vertelt je browser door middel van html tags hoe de pagina moet worden weergegeven op het scherm.
+
+    In de meeste eenvoudige vorm kan HTML gebruikt worden om tekst in paragrafen onder te verdelen met koppen en stukken tekst die nadruk moeten krijgen. Essentieel is dat HTML hypertekst mogelijk maakt, waardoor in een document verwijzingen kunnen worden ingebouwd naar andere documenten, dit zijn hyperlinks.
+
+    Lijsten
+
+    Lijsten worden onder andere gebruikt voor opsommingen, maar navigatie-elementen zullen we ook meestal in een lijst plaatsen (SEO). Elke lijst wordt opgebouwd uit verschillende listitems. Er bestaan 3 soorten lijsten:
+
+    Unordered list
+    Ordered list
+    Definition list
+
+    Hyperlinks
+
+    Via attributen kunnen we extra informatie aan tags meegeven. Attributen krijgen een waarde mee die tussen dubbele quotes geschreven worden. Via het attribuut href kunnen we bijvoorbeeld de bestemming van hyperlinks bepalen. Linken naar een andere webpagina
+
+    Via de tag a en basisattribuut href kunnen we een hyperlink leggen naar een andere webpagina. Gebruik hiervoor volgende code. Voorbeeld: <a href="http://www.howest.be">Howest website</a>
+
+    Linken naar een interne webpagina
+
+    Staat het bestand in dezelfde directory als het huidige document, dan hoef je slechts de naam van het bestand op te nemen. Staat het bestand in een subdirectory van de huidige directory, dan geef je eerst de namen van de achtereenvolgende subdirectories met achter elke naam een slash en daarna de naam van het bestand: <a href="lijsten/orderedList.htm">geordende lijst</a>: Link naar geordende lijst. Bevindt het bestand zich in een hogere directory dan de huidige, dan neem je voor elke stap omhoog een slash voorafgegaan door twee puntjes op: <a href="../index.htm">test</a> 
+    
+    Linken naar interne bookmarks
+
+    We kunnen ook een link leggen in onze pagina zelf, dit zijn bookmarks. Hiervoor moeten we een id meegeven aan de verschillende onderdelen. Op die manier kunnen we via een bookmark linken naar die bepaalde onderdelen. Via een bookmark kunnen we naar dit onderdeel springen: <a href="#titelHyperlinks">Spring</a> naar de titel Hyperlinks. 
+
+    Mailen naar een emailadres
+
+    We kunnen ook een mail versturen. Gebruik hiervoor volgende code. <a href="mailto:voornaam.naam@howest.be">Mail naar Voornaam Naam</a>
+
+    Images
+
+    Images worden ingevoegd met de unaire &lt;img/&gt;-tag. Deze tag heeft minimaal het attribuut src (source) nodig. Je gebruikt relatieve adressering naar een afbeelding.
+    
+</body>
+
 </html>
